@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(244, 176, 50);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.header h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.enter{
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.add{
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.add:hover{
+    transform: scale(1.1);
+}
+.list{
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+ul{
+    list-style: inside circle;
+}
+

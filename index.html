@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleapp.css">
+    <script src="app.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <input type="text" id="inputTask" placeholder="Enter your new task">
-        <button onclick="addTask();">Add</button>
+    <header>  
+        <h3><script src="app.js"></script></h3>     
     </header>
-     <main>
-        <ul id="taskList">
-            <!--display of tasks-->
-        </ul>
+    <main>
+        
+        <div class="top1">
+            <div class="top">
+                <input type="text" class="enter" id="inputTask" placeholder="Enter task then click on add">
+            </div>
+        </div>   
+            
+        <div class="button1">
+            <div class ="button">
+                <button type="button" class="add" onclick="addTask()"><span>Add</span></button>
+            </div>
+        </div>
+
+        <div class="bottom1">
+            <div class="bottom">
+                <ul class="list" id="taskList">
+                    <!--display of tasks--> 
+                </ul>
+            </div>
+        </div> 
+
     </main>
-    <script src="app.js"></script>
 </body>
 </html>

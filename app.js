@@ -1,3 +1,6 @@
+let user = prompt("Hello please enter your user name:");
+document.write("<p>Hello, " + user + " </p>" );
+
 function addTask(){
     //getting the value from the input
     let inputTask= document.getElementById("inputTask");
@@ -8,3 +11,4 @@ function addTask(){
     //template screen
     inputTask.value="";//clearing the input
 }
+
